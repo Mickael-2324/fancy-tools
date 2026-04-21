@@ -1,0 +1,11 @@
+[Unit]
+Description=Mise à jour automatique de fancy_tools
+After=network.target
+
+[Service]
+Type=oneshot
+ExecStart=/home/micka-l/bin/updateFancyTools
+User=micka-l
+
+[Install]
+WantedBy=multi-user.target
