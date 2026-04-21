@@ -1,0 +1,5 @@
+#!/bin/bash
+
+cd ~/SE_PSL/fancy-tools
+git pull
+echo "Fancy-tools mis à jour."
